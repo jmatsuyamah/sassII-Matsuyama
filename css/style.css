@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(248, 231, 231);
+}
+nav li {
+  padding: 4px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgb(209, 188, 162);
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(209, 188, 162);
+}
+
+.imgLph {
+  height: 50px;
+  width: 50px;
+}
+
+.card-text {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

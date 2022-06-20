@@ -1,0 +1,36 @@
+@use 'navbar';
+
+@mixin text ( $color , $size ){
+    font-family: 'Times New Roman', Times, serif;
+    color : $color;
+    font-size : $size;
+}
+
+$color1: rgb(209, 188, 162);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: $color1;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+footer {
+    background-color: $color1;
+}
+
+.imgLph {
+    height: 50px;
+    width: 50px;
+}
+
+.card-text {
+    @include text( black, 15px )
+}
